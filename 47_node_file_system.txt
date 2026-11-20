@@ -1,0 +1,10 @@
+NODE.JS FILE SYSTEM
+const fs = require("node:fs/promises");
+
+async function manageFile() {
+  await fs.writeFile("message.txt", "Hello from Node.js");
+  const content = await fs.readFile("message.txt", "utf8");
+  console.log(content);
+}
+
+manageFile();
