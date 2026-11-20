@@ -1,0 +1,6 @@
+HTML HEADINGS AND PARAGRAPHS
+<h1>Main Heading</h1>
+<h2>Section Heading</h2>
+<h3>Subsection Heading</h3>
+<p>This is a paragraph of text.</p>
+<p>This is another paragraph.</p>
