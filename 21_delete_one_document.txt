@@ -1,0 +1,2 @@
+MONGODB DELETE ONE
+db.students.deleteOne({ name: "Kiran" })
