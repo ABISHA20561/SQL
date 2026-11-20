@@ -1,0 +1,5 @@
+MONGODB ADD TO ARRAY
+db.students.updateOne(
+  { name: "Maya" },
+  { $push: { skills: "MongoDB" } }
+)
