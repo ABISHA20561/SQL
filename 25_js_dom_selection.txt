@@ -1,0 +1,7 @@
+JAVASCRIPT DOM SELECTION
+const heading = document.querySelector("#title");
+const items = document.querySelectorAll(".item");
+heading.textContent = "Updated Heading";
+items.forEach(item => {
+  item.style.color = "blue";
+});
