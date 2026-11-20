@@ -1,0 +1,5 @@
+MONGODB REMOVE FROM ARRAY
+db.students.updateOne(
+  { name: "Maya" },
+  { $pull: { skills: "MongoDB" } }
+)
