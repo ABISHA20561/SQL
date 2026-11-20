@@ -1,0 +1,9 @@
+CREATE TABLE students (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    department VARCHAR(50)
+);
+SHOW TABLES;
+DESCRIBE students;
+DROP TABLE students;
