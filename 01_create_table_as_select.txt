@@ -1,0 +1,4 @@
+CREATE TABLE high_value_orders AS
+SELECT *
+FROM orders
+WHERE order_amount > 1000;
