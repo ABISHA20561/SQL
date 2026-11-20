@@ -1,0 +1,9 @@
+NODE.JS EVENT EMITTER
+const EventEmitter = require("node:events");
+const eventBus = new EventEmitter();
+
+eventBus.on("userRegistered", user => {
+  console.log(`New user: ${user.name}`);
+});
+
+eventBus.emit("userRegistered", { name: "Kiran" });
