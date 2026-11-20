@@ -1,0 +1,4 @@
+SELECT employee_id, employee_name, salary,
+       RANK() OVER (ORDER BY salary DESC) AS salary_rank,
+       DENSE_RANK() OVER (ORDER BY salary DESC) AS dense_salary_rank
+FROM employees;
