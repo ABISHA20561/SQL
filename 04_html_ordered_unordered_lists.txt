@@ -1,0 +1,13 @@
+HTML ORDERED AND UNORDERED LISTS
+<h2>Ordered List</h2>
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+<h2>Unordered List</h2>
+<ul>
+  <li>React</li>
+  <li>Node.js</li>
+  <li>Express</li>
+</ul>
