@@ -1,0 +1,4 @@
+CREATE DATABASE college;
+SHOW DATABASES;
+USE college;
+DROP DATABASE college;
