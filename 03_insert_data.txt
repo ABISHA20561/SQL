@@ -1,0 +1,8 @@
+INSERT INTO students (student_id, name, age, department)
+VALUES (1, 'Arun', 20, 'IT');
+
+INSERT INTO students (student_id, name, age, department)
+VALUES
+(2, 'Meena', 21, 'CSE'),
+(3, 'Kiran', 19, 'ECE'),
+(4, 'Divya', 22, 'IT');
