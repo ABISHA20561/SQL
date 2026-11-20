@@ -1,0 +1,4 @@
+MONGODB EXISTS OPERATOR
+db.students.find({
+  email: { $exists: true }
+})
