@@ -1,0 +1,5 @@
+SELECT * FROM students;
+SELECT name FROM students;
+SELECT name, department FROM students;
+SELECT DISTINCT department FROM students;
+SELECT COUNT(*) FROM students;
