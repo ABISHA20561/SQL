@@ -1,0 +1,7 @@
+HTML DROPDOWN SELECT
+<label for="course">Choose a course</label>
+<select id="course" name="course">
+  <option value="html">HTML</option>
+  <option value="css">CSS</option>
+  <option value="javascript">JavaScript</option>
+</select>
