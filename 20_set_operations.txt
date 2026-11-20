@@ -1,0 +1,15 @@
+SELECT name FROM current_students
+UNION
+SELECT name FROM former_students;
+
+SELECT name FROM current_students
+UNION ALL
+SELECT name FROM former_students;
+
+SELECT student_id FROM students
+INTERSECT
+SELECT student_id FROM enrollments;
+
+SELECT student_id FROM students
+EXCEPT
+SELECT student_id FROM enrollments;
