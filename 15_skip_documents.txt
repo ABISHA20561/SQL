@@ -1,0 +1,2 @@
+MONGODB SKIP DOCUMENTS
+db.students.find().skip(5).limit(5)
