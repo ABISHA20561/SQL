@@ -1,0 +1,2 @@
+MONGODB SORT DOCUMENTS
+db.students.find().sort({ cgpa: -1 })
