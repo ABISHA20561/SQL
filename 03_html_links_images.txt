@@ -1,0 +1,3 @@
+HTML LINKS AND IMAGES
+<a href="https://example.com" target="_blank">Visit Example</a>
+<img src="image.jpg" alt="Sample image" width="300">
