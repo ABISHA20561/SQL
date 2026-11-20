@@ -1,0 +1,12 @@
+JAVASCRIPT DEBOUNCE FUNCTION
+function debounce(callback, delay) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => callback(...args), delay);
+  };
+}
+const search = debounce(value => console.log(value), 400);
+document.querySelector("#search").addEventListener("input", event => {
+  search(event.target.value);
+});
