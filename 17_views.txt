@@ -1,0 +1,8 @@
+CREATE VIEW it_students AS
+SELECT student_id, name, age
+FROM students
+WHERE department = 'IT';
+
+SELECT * FROM it_students;
+
+DROP VIEW it_students;
