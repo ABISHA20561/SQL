@@ -1,0 +1,11 @@
+CSS FLEXBOX LAYOUT
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.item {
+  flex: 1;
+  padding: 20px;
+}
