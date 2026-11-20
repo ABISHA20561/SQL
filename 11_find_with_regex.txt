@@ -1,0 +1,4 @@
+MONGODB REGEX SEARCH
+db.students.find({
+  name: { $regex: "^a", $options: "i" }
+})
