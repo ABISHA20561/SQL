@@ -1,0 +1,5 @@
+MONGODB UPDATE MANY
+db.students.updateMany(
+  { department: "IT" },
+  { $set: { active: true } }
+)
