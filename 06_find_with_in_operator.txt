@@ -1,0 +1,4 @@
+MONGODB IN OPERATOR
+db.students.find({
+  department: { $in: ["IT", "CSE"] }
+})
