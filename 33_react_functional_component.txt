@@ -1,0 +1,10 @@
+REACT FUNCTIONAL COMPONENT
+function Welcome() {
+  return (
+    <main>
+      <h1>Welcome to React</h1>
+      <p>Build user interfaces with components.</p>
+    </main>
+  );
+}
+export default Welcome;
