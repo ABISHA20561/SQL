@@ -1,0 +1,11 @@
+MONGODB AGGREGATION UNWIND ARRAY
+db.students.aggregate([
+  { $unwind: "$skills" },
+  {
+    $project: {
+      name: 1,
+      skill: "$skills",
+      _id: 0
+    }
+  }
+])
