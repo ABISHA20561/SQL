@@ -1,0 +1,8 @@
+JAVASCRIPT VARIABLES AND DATA TYPES
+const studentName = "Maya";
+let age = 21;
+let isEnrolled = true;
+let score = null;
+let address;
+const student = { name: studentName, age, isEnrolled };
+console.log(student);
