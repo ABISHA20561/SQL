@@ -1,0 +1,2 @@
+MONGODB LIMIT DOCUMENTS
+db.students.find().limit(5)
