@@ -1,0 +1,2 @@
+MONGODB CREATE INDEX
+db.students.createIndex({ email: 1 }, { unique: true })
