@@ -1,0 +1,3 @@
+SELECT colors.color_name, sizes.size_name
+FROM colors
+CROSS JOIN sizes;
