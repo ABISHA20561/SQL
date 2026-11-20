@@ -1,0 +1,2 @@
+MONGODB COUNT DOCUMENTS
+db.students.countDocuments({ department: "IT" })
