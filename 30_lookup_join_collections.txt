@@ -1,0 +1,12 @@
+MONGODB LOOKUP COLLECTIONS
+db.orders.aggregate([
+  {
+    $lookup: {
+      from: "customers",
+      localField: "customerId",
+      foreignField: "_id",
+      as: "customerDetails"
+    }
+  },
+  { $unwind: "$customerDetails" }
+])
