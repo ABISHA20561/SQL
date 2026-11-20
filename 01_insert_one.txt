@@ -1,0 +1,7 @@
+MONGODB INSERT ONE
+db.students.insertOne({
+  name: "Anu",
+  age: 21,
+  department: "IT",
+  cgpa: 8.5
+})
