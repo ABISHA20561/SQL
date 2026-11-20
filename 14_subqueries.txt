@@ -1,0 +1,10 @@
+SELECT * FROM students
+WHERE age > (SELECT AVG(age) FROM students);
+
+SELECT * FROM students
+WHERE student_id IN (
+    SELECT student_id FROM enrollments
+);
+
+SELECT MAX(age) FROM students
+WHERE age < (SELECT MAX(age) FROM students);
