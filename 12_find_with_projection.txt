@@ -1,0 +1,5 @@
+MONGODB FIELD PROJECTION
+db.students.find(
+  { department: "IT" },
+  { name: 1, cgpa: 1, _id: 0 }
+)
