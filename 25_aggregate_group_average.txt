@@ -1,0 +1,9 @@
+MONGODB AGGREGATION GROUP AVERAGE
+db.students.aggregate([
+  {
+    $group: {
+      _id: "$department",
+      averageCgpa: { $avg: "$cgpa" }
+    }
+  }
+])
