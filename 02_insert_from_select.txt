@@ -1,0 +1,4 @@
+INSERT INTO archived_orders (order_id, customer_id, order_date, order_amount)
+SELECT order_id, customer_id, order_date, order_amount
+FROM orders
+WHERE order_date < DATE '2024-01-01';
