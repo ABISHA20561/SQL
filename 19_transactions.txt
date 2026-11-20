@@ -1,0 +1,14 @@
+START TRANSACTION;
+
+UPDATE students
+SET age = 22
+WHERE student_id = 1;
+
+SAVEPOINT update_done;
+
+DELETE FROM students
+WHERE student_id = 4;
+
+ROLLBACK TO SAVEPOINT update_done;
+
+COMMIT;
