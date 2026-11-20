@@ -1,0 +1,5 @@
+MONGODB UPDATE ONE
+db.students.updateOne(
+  { name: "Anu" },
+  { $set: { cgpa: 8.8 } }
+)
