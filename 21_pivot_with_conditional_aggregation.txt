@@ -1,0 +1,6 @@
+SELECT customer_id,
+       SUM(CASE WHEN status = 'Pending' THEN 1 ELSE 0 END) AS pending_orders,
+       SUM(CASE WHEN status = 'Shipped' THEN 1 ELSE 0 END) AS shipped_orders,
+       SUM(CASE WHEN status = 'Cancelled' THEN 1 ELSE 0 END) AS cancelled_orders
+FROM orders
+GROUP BY customer_id;
