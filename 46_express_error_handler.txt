@@ -1,0 +1,13 @@
+EXPRESS ERROR HANDLER
+const express = require("express");
+const app = express();
+
+app.get("/error", (req, res, next) => {
+  next(new Error("Something went wrong"));
+});
+
+app.use((error, req, res, next) => {
+  res.status(500).json({ error: error.message });
+});
+
+app.listen(3000);
