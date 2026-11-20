@@ -1,0 +1,16 @@
+EXPRESS CUSTOM MIDDLEWARE
+const express = require("express");
+const app = express();
+
+function requestLogger(req, res, next) {
+  console.log(req.method, req.url);
+  next();
+}
+
+app.use(requestLogger);
+
+app.get("/", (req, res) => {
+  res.send("Middleware executed");
+});
+
+app.listen(3000);
