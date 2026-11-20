@@ -1,0 +1,14 @@
+WITH duplicate_rows AS (
+    SELECT employee_id,
+           ROW_NUMBER() OVER (
+               PARTITION BY email
+               ORDER BY employee_id
+           ) AS row_num
+    FROM employees
+)
+DELETE FROM employees
+WHERE employee_id IN (
+    SELECT employee_id
+    FROM duplicate_rows
+    WHERE row_num > 1
+);
