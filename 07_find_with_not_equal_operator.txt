@@ -1,0 +1,4 @@
+MONGODB NOT EQUAL OPERATOR
+db.students.find({
+  department: { $ne: "ECE" }
+})
