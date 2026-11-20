@@ -1,0 +1,5 @@
+MONGODB INCREMENT FIELD
+db.students.updateOne(
+  { name: "Ravi" },
+  { $inc: { age: 1 } }
+)
