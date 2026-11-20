@@ -1,0 +1,4 @@
+CREATE INDEX idx_student_name ON students(name);
+CREATE INDEX idx_student_department ON students(department);
+SHOW INDEX FROM students;
+DROP INDEX idx_student_name ON students;
