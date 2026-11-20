@@ -1,0 +1,9 @@
+MONGODB AGGREGATION GROUP COUNT
+db.students.aggregate([
+  {
+    $group: {
+      _id: "$department",
+      studentCount: { $sum: 1 }
+    }
+  }
+])
