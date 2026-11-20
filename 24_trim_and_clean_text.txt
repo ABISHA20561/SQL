@@ -1,0 +1,2 @@
+SELECT TRIM(customer_name) AS cleaned_customer_name
+FROM customers;
