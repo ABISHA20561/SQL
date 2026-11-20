@@ -1,0 +1,17 @@
+JAVASCRIPT CLASSES AND INHERITANCE
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+  greet() {
+    return `Hello, ${this.name}`;
+  }
+}
+class Student extends Person {
+  constructor(name, course) {
+    super(name);
+    this.course = course;
+  }
+}
+const student = new Student("Nila", "IT");
+console.log(student.greet());
