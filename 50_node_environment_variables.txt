@@ -1,0 +1,5 @@
+NODE.JS ENVIRONMENT VARIABLES
+const port = process.env.PORT || 3000;
+const appName = process.env.APP_NAME || "Node Application";
+
+console.log(`${appName} is configured for port ${port}`);
