@@ -1,0 +1,7 @@
+MONGODB OR OPERATOR
+db.students.find({
+  $or: [
+    { department: "IT" },
+    { cgpa: { $gte: 9.0 } }
+  ]
+})
