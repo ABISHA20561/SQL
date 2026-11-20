@@ -1,0 +1,7 @@
+MONGODB AND OPERATOR
+db.students.find({
+  $and: [
+    { age: { $gte: 20 } },
+    { cgpa: { $gte: 8.0 } }
+  ]
+})
