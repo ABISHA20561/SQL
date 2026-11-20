@@ -1,0 +1,6 @@
+MONGODB AGGREGATION MATCH SORT LIMIT
+db.students.aggregate([
+  { $match: { cgpa: { $gte: 8.0 } } },
+  { $sort: { cgpa: -1 } },
+  { $limit: 5 }
+])
