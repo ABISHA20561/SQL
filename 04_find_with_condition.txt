@@ -1,0 +1,2 @@
+MONGODB FIND WITH CONDITION
+db.students.find({ department: "IT" })
