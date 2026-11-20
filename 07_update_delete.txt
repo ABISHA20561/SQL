@@ -1,0 +1,4 @@
+UPDATE students SET age = 21 WHERE student_id = 1;
+UPDATE students SET department = 'CSE' WHERE student_id = 4;
+DELETE FROM students WHERE student_id = 3;
+DELETE FROM students WHERE age < 18;
