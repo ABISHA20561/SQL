@@ -1,0 +1,18 @@
+REACT CONTEXT API
+import { createContext, useContext } from "react";
+
+const ThemeContext = createContext("light");
+
+function ThemeLabel() {
+  const theme = useContext(ThemeContext);
+  return <p>Current theme: {theme}</p>;
+}
+
+function App() {
+  return (
+    <ThemeContext.Provider value="dark">
+      <ThemeLabel />
+    </ThemeContext.Provider>
+  );
+}
+export default App;
