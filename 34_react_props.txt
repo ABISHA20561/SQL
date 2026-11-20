@@ -1,0 +1,10 @@
+REACT PROPS
+function ProfileCard({ name, role }) {
+  return (
+    <section>
+      <h2>{name}</h2>
+      <p>{role}</p>
+    </section>
+  );
+}
+export default ProfileCard;
