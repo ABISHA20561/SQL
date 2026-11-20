@@ -1,0 +1,9 @@
+JAVASCRIPT PROMISE AND ASYNC AWAIT
+function wait(milliseconds) {
+  return new Promise(resolve => setTimeout(resolve, milliseconds));
+}
+async function runTask() {
+  await wait(1000);
+  return "Task completed";
+}
+runTask().then(result => console.log(result));
