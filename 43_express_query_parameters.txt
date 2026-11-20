@@ -1,0 +1,10 @@
+EXPRESS QUERY PARAMETERS
+const express = require("express");
+const app = express();
+
+app.get("/search", (req, res) => {
+  const keyword = req.query.keyword || "";
+  res.json({ keyword });
+});
+
+app.listen(3000);
