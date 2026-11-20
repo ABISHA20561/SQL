@@ -1,0 +1,10 @@
+CSS GRID LAYOUT
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.grid-item {
+  padding: 24px;
+  background: #e8eef5;
+}
