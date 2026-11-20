@@ -1,0 +1,5 @@
+JAVASCRIPT EVENT LISTENER
+const button = document.querySelector("#submitButton");
+button.addEventListener("click", () => {
+  alert("Button clicked");
+});
