@@ -1,0 +1,6 @@
+SELECT * FROM students WHERE age = 20;
+SELECT * FROM students WHERE age > 20;
+SELECT * FROM students WHERE department = 'IT';
+SELECT * FROM students WHERE age BETWEEN 18 AND 21;
+SELECT * FROM students WHERE department IN ('IT', 'CSE');
+SELECT * FROM students WHERE name LIKE 'A%';
