@@ -1,0 +1,2 @@
+MONGODB FIND ALL DOCUMENTS
+db.students.find()
