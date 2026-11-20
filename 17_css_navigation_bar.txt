@@ -1,0 +1,13 @@
+CSS NAVIGATION BAR
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: #172554;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 16px;
+}
