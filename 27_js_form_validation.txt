@@ -1,0 +1,9 @@
+JAVASCRIPT FORM VALIDATION
+const form = document.querySelector("#signupForm");
+form.addEventListener("submit", event => {
+  const email = document.querySelector("#email").value.trim();
+  if (!email.includes("@")) {
+    event.preventDefault();
+    alert("Enter a valid email address");
+  }
+});
