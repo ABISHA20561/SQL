@@ -1,0 +1,11 @@
+CSS RESPONSIVE MEDIA QUERY
+.container {
+  width: 90%;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 12px;
+  }
+}
