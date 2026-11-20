@@ -1,0 +1,10 @@
+JAVASCRIPT OBJECTS
+const employee = {
+  id: 101,
+  name: "Arun",
+  role: "Developer",
+  introduce() {
+    return `${this.name} is a ${this.role}`;
+  }
+};
+console.log(employee.introduce());
