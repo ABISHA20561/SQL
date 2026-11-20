@@ -1,0 +1,2 @@
+MONGODB DELETE MANY
+db.students.deleteMany({ active: false })
