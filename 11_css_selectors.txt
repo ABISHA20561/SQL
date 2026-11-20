@@ -1,0 +1,13 @@
+CSS SELECTORS
+h1 {
+  color: navy;
+}
+.card {
+  padding: 20px;
+}
+#main-title {
+  font-size: 32px;
+}
+* {
+  box-sizing: border-box;
+}
