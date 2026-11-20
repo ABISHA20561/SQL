@@ -1,0 +1,4 @@
+SELECT department, COUNT(*) FROM students GROUP BY department;
+SELECT department, AVG(age) FROM students GROUP BY department;
+SELECT department, MAX(age) FROM students GROUP BY department;
+SELECT department, COUNT(*) FROM students GROUP BY department HAVING COUNT(*) > 2;
