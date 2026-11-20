@@ -1,0 +1,6 @@
+MONGODB INSERT MANY
+db.students.insertMany([
+  { name: "Ravi", age: 22, department: "CSE", cgpa: 8.1 },
+  { name: "Maya", age: 20, department: "IT", cgpa: 9.0 },
+  { name: "Kiran", age: 21, department: "ECE", cgpa: 7.8 }
+])
