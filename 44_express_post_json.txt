@@ -1,0 +1,12 @@
+EXPRESS POST JSON ROUTE
+const express = require("express");
+const app = express();
+
+app.use(express.json());
+
+app.post("/users", (req, res) => {
+  const user = req.body;
+  res.status(201).json({ message: "User received", user });
+});
+
+app.listen(3000);
