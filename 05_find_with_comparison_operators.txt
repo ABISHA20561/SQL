@@ -1,0 +1,4 @@
+MONGODB COMPARISON OPERATORS
+db.students.find({
+  age: { $gte: 20, $lte: 22 }
+})
